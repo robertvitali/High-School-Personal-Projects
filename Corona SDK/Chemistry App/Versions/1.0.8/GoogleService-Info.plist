@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>932658494521-4h4h8oglq6n5gak4q2tltnh8mm7gpeff.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.932658494521-4h4h8oglq6n5gak4q2tltnh8mm7gpeff</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAAHULOygMKFaPwc9RN1g3DrrJbO9XGOLo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>932658494521</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.rdvitali.MolarMassCalc</string>
+	<key>PROJECT_ID</key>
+	<string>molar-mass-calc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>molar-mass-calc.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:932658494521:ios:a0da1418213dcd83</string>
+	<key>DATABASE_URL</key>
+	<string>https://molar-mass-calc.firebaseio.com</string>
+</dict>
+</plist>

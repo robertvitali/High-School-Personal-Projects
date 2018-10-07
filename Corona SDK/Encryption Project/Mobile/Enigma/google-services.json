@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "496848815441",
+    "firebase_url": "https://encryptmee-ed9f7.firebaseio.com",
+    "project_id": "encryptmee-ed9f7",
+    "storage_bucket": "encryptmee-ed9f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496848815441:android:ad52bb1f65063f32",
+        "android_client_info": {
+          "package_name": "com.rdvitali.EncryptMee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496848815441-2llg89a83uk6228n3urbn2rf71psuk44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiBtPGceyG2FKVuRcH6AtTyEAuu4w0D2s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

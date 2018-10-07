@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "932658494521",
+    "firebase_url": "https://molar-mass-calc.firebaseio.com",
+    "project_id": "molar-mass-calc",
+    "storage_bucket": "molar-mass-calc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932658494521:android:e876a7c8d24fd987",
+        "android_client_info": {
+          "package_name": "com.gmail.rdvitali98.molarMassCalc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932658494521-ol592gnu1f5d3okik9almh0otkomhpq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvcCk9FXRv8PS0g1lQtMyJLLhiWu_G-Lo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

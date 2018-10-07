@@ -1,0 +1,429 @@
+
+
+/*Simply adding a font-family that will be used throughout the site*/
+@font-face{
+  font-family:lato;
+
+  src:url(../font/lato-bold.ttf);
+}
+@font-face{
+  font-family:lato-regular;
+
+  src:url(../font/lato.ttf);
+}
+/*Adjusts the height and width of the entire page*/
+html, body {
+  width: 100%;
+  height: 100%;
+  margin:0 auto;
+  font-family: 'montserrat';
+ /*Stops the screen from scrolling to the left and right (basically the x-axis)*/
+}
+body{
+    background-color: #5e9e3c;
+        overflow-x: hidden; 
+
+}
+/*Navigation*/
+.site-header {
+
+    background-color: #fff;
+}
+
+.dropdown-trigger {
+  padding: 0;
+  width: 2.75em;
+  height: 2.75em;
+  border: none;
+  background: url(../img/lock.svg);
+  background-size: 100%;
+  cursor: pointer;
+  float: right;
+  position: sticky;
+  z-index: 20;
+margin: 10px ;
+}
+
+.dropdown-trigger:focus {
+  outline: none;
+     background: url(../img/lock-open.svg);
+       background-size: 100%;
+-webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+
+}
+.dropdown-trigger.selected {
+     background: url(../img/lock-open.svg);
+       background-size: 100%;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+
+}
+
+
+
+.dropdown-nav {
+  display: none;
+  vertical-align: top;
+  float: right;
+margin: 10px;
+}
+.dropdown-nav.open {
+  display: block;
+}
+@media (min-width: 600px) {
+  .dropdown-nav.open {
+    display: inline-block;
+  }
+}
+.dropdown-nav .nav-item {
+  display: block;
+  padding: .5em  2em .5em .5em;
+  text-decoration: none;
+  color: #5e9e3c;
+
+}
+.dropdown-nav .nav-item ~ .nav-item {
+  margin-top: .25em;
+}
+.dropdown-nav .nav-item:hover {
+  color: #fff;
+    -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+@media (min-width: 600px) {
+  .dropdown-nav .nav-item {
+    display: inline-block;
+  }
+  .dropdown-nav .nav-item ~ .nav-item {
+    margin-top: 0;
+  }
+}
+
+/*Home Section*/ 
+.home{
+  width: 100%;
+  height: 480px;
+  padding: 3em 0 30em 0;
+   margin:0 auto;
+  background-color: rgba(106, 188, 69,1); /*This is the rgb (106, 188, 169, 1); The
+  "1" adjusts the opacity of the color.*/
+  color: white;
+}
+
+/* h1, since it has no dot preceeding it, is considered an identifier/attribute (id). Anything such as .home is considered a class*/
+.home h1 {  /*h1 is a global html id so I don't have to specify its display as you'll I've done for the rob attribute below*/
+ font-size: 103px;
+  text-align: center;
+ }
+rob {   
+  text-align: center;
+  display: block;
+ margin:-35px 0 0 0;  /*this adjusts how far up, to the right, down, and to the left your object (in this case text) is from another object
+ could also be the page itself. To see what I'm talking about delete the margin:0 auto; line in the html attribute
+ all the way at the top and then add it in back again*/
+}
+.home rob { /*rob  is an attribute. Attributes can also be expressed as id='rob' */
+ font-size: 40px;
+  text-align: center;
+}
+.contact{  
+    background-color: rgba(106, 188, 69,1);
+  height: 480px;
+  width: 100%;
+ 
+    float: left;
+    font-family: 'lato-regular';
+
+}
+.center-buttons{
+ 
+ 
+ 
+ 
+        text-align:center;
+        position:relative;
+ }
+apple{
+
+  border-radius: 3rem; /* makes the button circular. anything above 3rem (root em) will not make a difference*/
+ 
+   
+ margin-right: 3em;
+ 
+       display:inline-block;
+ 
+}
+apple:hover{
+  opacity: 0.9;
+ 
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+android{
+  border-radius: 3rem; /* makes the button circular. anything above 3rem (root em) will not make a difference*/
+
+       display:inline-block;
+}
+android:hover{
+    opacity: 0.9;
+ 
+}
+.twitter {
+  background-image:url(../img/twitter.svg) no-repeat;
+  background-size: 100%;
+
+}
+.twitter:hover{
+background-image: url(../img/twiiter-hover.svg) no-repeat;
+background-size: 100%;
+    -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+ 
+.more-info div {
+    width: 40%;
+ color: #fff;
+ height: 100%;
+ margin: 0 auto;
+
+ display: block;
+ padding:10px;
+  
+  }
+  h2{
+    margin-top: 70px;
+     color: #fff;
+     padding-top: 40px;
+     padding-left: 10px;
+     font-size: 40px;
+  }
+  .more-info .right-column {
+    margin-right: 0;
+
+    float: right;
+margin-top:-50px;
+ 
+    ;
+  }
+  .more-info .left-column {
+    margin-left: 0;
+    font-size:20px;
+    float: left;
+ font-family: 'montserrat';font-weight: 500;
+ 
+  }
+
+ 
+   @media only screen and (min-width: 400px) {
+                    .home h1 { font-size:50px; text-align: center;}
+ 
+}
+     
+    @media only screen and (min-width: 700px) {
+      .home{
+          padding: 3em 0 35em 0;
+
+      }
+                    .home h1 { font-size:103px; }
+                     .home rob{ font-size:20px;  margin:-75px 0 0 0;  
+                     }
+        } 
+
+
+  @media screen and (min-width: 36em) {
+  .more-info{
+    width: 100%;
+     margin: 0 auto;
+     padding: 0;
+      background-color: #5e9e3c;
+ 
+  }
+}
+  footer {
+    position: relative;
+    clear: both;
+     color: #5e9e3c;
+
+    font-size: 13px;
+   background-color:rgba(106, 188, 69,1);
+
+}
+footer img{
+  
+width:150px;
+  }
+
+ footer a{
+
+text-decoration:none;
+     
+ color: #5e9e3c;
+    }
+     footer a:hover{
+color: #fff;
+    }
+    
+footer .footer-fixed {
+ 
+margin:0 auto;
+    text-align: center;
+}
+
+#scrolldown {
+  bottom: -45px;
+  height: 100px;
+  margin-left: -50px;
+  position: relative;
+  left: 50%;
+  text-align: center;
+  width: 100px;
+margin-top: 40px;
+   
+}
+#scrolldown a {
+cursor: pointer;
+}
+#scrolldown p {
+
+  font-size: 0.7em;
+  animation-duration: 1.5s;
+   animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+  color: #fff;
+
+    text-align: center;
+}
+#scrolldown > p {
+  text-transform: uppercase;
+  text-indent: 10px;
+ 
+}
+.mouse { 
+  display: block;
+  height: 65px;
+  left: 50%;
+  margin: 0 0 0 -13px;
+  position: relative;
+  width: 37px;
+}
+ 
+.mouse span {
+  display: block;
+  
+  margin: 0;
+      
+  height: 100%;
+    background: url(../img/more-info.svg) no-repeat;
+
+    border-radius:4rem;
+      animation-duration: 1.5s;
+  background-size: 100%;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+ 
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+   form {
+ 
+  margin: 100px  auto;
+     width: 100%;
+ 
+  text-align: center;
+  }
+
+input, textarea {
+font-family: "lato-bold";
+  outline: 0;
+  background: #fff;
+  width: 100%;
+ 
+   border-style: none;
+  margin: 0 0 15px;
+  padding: 15px;
+   max-width: 400px;
+  box-sizing: border-box;
+  border-radius: 3rem;
+  font-size: 14px;
+}
+input[type=submit], textarea[type=submit] {
+  background-color: #5e9e3c;
+ font-family: "lato-bold" ;
+  text-transform: uppercase;
+  outline: 0;
+  width: 100%;
+  border: 0;
+  border-radius: 3rem; /*You can remove this if you it to be box, but was trying to stay 
+  somewhat consistant since I did the android and ios buttons with a border radius*/
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+input::placeholder, textarea::placeholder {
+  color: #fff;
+}
+input.error, textarea.error {
+  background: #AD4747;
+  color: #fff;
+}
+input.error::placeholder, textarea.error::placeholder {
+  color: #fff;
+}
+
+textarea {
+  height: 10rem;
+}
+
+.captcha {
+  float: left;
+}
+.captcha input {
+  float: right;
+}
+.captcha input[name=question] {
+  width: 4rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  text-align: right;
+  padding-right: 0;
+}
+.captcha [name=captcha] {
+  width: 5rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding-left: 0.5rem;
+}
+.captcha [name=captcha]::placeholder {
+  text-align: center;
+}
+form img{
+  width: 20px;
+}
+ form img:hover{
+
+ }
+ 
